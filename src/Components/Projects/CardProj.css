@@ -1,0 +1,29 @@
+.box {
+    width:30vw;
+    height: 25vh;
+    background-color: #232323; /* Black math color */
+    border-radius: 15px; /* Rounded borders */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some space inside the box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    display: flex;
+    flex-direction: column;
+}
+
+.boxDisplay{
+    margin-right: 5vw ;
+    width:30vw;
+    height: 80vh;
+    background-color: #232323; /* Black math color */
+    border-radius: 15px; /* Rounded borders */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some space inside the box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    overflow-wrap: "break-word" 
+}
+
+body{
+    overflow-y: scroll;
+}

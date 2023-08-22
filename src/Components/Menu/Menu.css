@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+
+body {
+    background-color: rgb(16, 22, 22);
+}
+
+.Hcard {
+    margin-left: 8%;
+    margin-top: 12%;
+}
+
+.sections {
+    
+    display:flex;
+    
+    justify-content: space-around;
+    padding: 2%;
+    margin-top: 17%;
+    width: 100vw;
+}
+
+.AboutMe{
+    color:white;
+    text-align:center;
+    margin-left:8%;
+    margin-right:5%;
+    margin-top:7%;
+}
+
+
+@media (max-width: 768px) {
+    /* Media query for screens up to 768px width */
+    .sections {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+  }
